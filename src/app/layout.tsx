@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
+import "zenn-content-css";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
