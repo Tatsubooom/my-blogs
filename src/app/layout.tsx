@@ -20,7 +20,7 @@ export const metadata = {
     siteName: "tatsubon's blog",
     images: [
       {
-        url: "https://test-blog-a29a5.web.app/public/assets/blog/preview/Gemini_Generated_Image_gpvyihgpvyihgpvy.png",
+        url: "https://test-blog-a29a5.web.app/assets/blog/preview/Gemini_Generated_Image_gpvyihgpvyihgpvy.png",
         width: 1200,
         height: 630,
       },
