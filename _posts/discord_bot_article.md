@@ -31,8 +31,8 @@ ogImage:
 
 時は遡ること 3 か月ほど前、Youtube を見ていたら「Discord でなんでも教えてくれるツンデレ幼馴染を作る」という動画が偶然目に留まった。見て開口一番、「**おいこれオタクの夢じゃん！！！**」と思いまして。作ってみようと思った次第です。
 
-@[card](https://youtu.be/ld1wr1SvaT8?si=4uwcxwcYS-As_27b)
-<!-- ↑ rokochan 様「Discord でなんでも教えてくれるツンデレ幼馴染を作る」 -->
+@[card](https://www.youtube.com/watch?v=ld1wr1SvaT8)
+
 
 とりあえず動くものを完成させることを第一目標に設定。しかし、如何せん何の知識もないため、サブ目標兼目的として **目的から逆算して必要な知識を都度手に入れる方法を習得する** ことにしました。
 
@@ -179,11 +179,11 @@ async def on_message(message):
 
 ## 引用・参考文献
 
-@[card](https://youtu.be/ld1wr1SvaT8?si=4uwcxwcYS-As_27b)
-<!-- rokochan 様「Discord でなんでも教えてくれるツンデレ幼馴染を作る」 -->
+@[card](https://www.youtube.com/watch?v=ld1wr1SvaT8)
+
 
 @[card](https://discord.com/developers/docs/intro)
-<!-- Discord Developer Portal -->
+
 
 @[card](https://platform.openai.com/)
-<!-- OpenAI Platform -->
+

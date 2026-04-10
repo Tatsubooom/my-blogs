@@ -36,8 +36,7 @@ ogImage:
 
 皆さんはモーターを回して、演奏する動画を見たことありますか？
 
-@[card](https://www.youtube.com/watch?v=YOUR_LINK_HERE)
-<!-- ↑ 【URL差し替え】※1 Youtube / Spacey Man「Mii channel Theme on sttepper motors」 -->
+@[card](https://www.youtube.com/watch?v=bDHBllsGhUg)
 
 音に合わせて小さいモーターがピコピコ動いている姿、とても**可愛い**ですよね。それに、心地の良いくぐもった電子音やスピーカでは出せない響くような低音などなど…、非常に魅力的な演奏媒体だと私は常日頃から、想っていたわけでございます。
 
@@ -51,8 +50,7 @@ ogImage:
 
 とりあえず、まずは先行研究探しから。適当に「ステッピングモーター 演奏」とかてググって出てきたものを親だと思って作業を始める。一番初めに出てきたこの記事に決定。細かいとこは後にして、最低限必要なものをかき集めます。全部アリエクで買ったよ。
 
-@[card](https://note.com/kiyo2048/YOUR_LINK_HERE)
-<!-- ↑ 【URL差し替え】※2 Note / kiyo2048「忙しい人の為のステッピングモーターで演奏する方法」 -->
+@[card](https://note.com/kiyo2048/n/n13483d9c7d44)
 
 ---
 
@@ -90,8 +88,7 @@ CNC シールドがあると組み立ては超簡単。Arduino にシールド�
 
 シールド内のジャンパピンはマイクロステップの設定で、三つ横に並んだ上下組のピンが A4988 における MS1, MS2, MS3 に接続されている。設定方法はこちら。
 
-@[card](https://www.originalmind.co.jp/YOUR_LINK_HERE)
-<!-- ↑ 【URL差し替え】※3 株式会社オリジナルマインド Web「Arduino でメカトロニクス製品を動かそう」 -->
+@[card](https://www.originalmind.co.jp/special/mechatronics/arduino/)
 
 :::message alert
 分解数が上がるにつれて純粋な回転量が下がるので、**回転しているときの見た目がしょぼくなること**・回転が滑らかになるので**音量が下がること**に注意。好みを探そう。
@@ -170,8 +167,7 @@ loopmidi を**最初に**起動しておこう（バグ防止）。好きな MID
 
 モーターは固定しないとうまく音が出ないから、適当に固定しておく。動いている動画はこちらから。
 
-@[card](https://www.youtube.com/watch?v=YOUR_LINK_HERE)
-<!-- ↑ 【URL差し替え】※5 私の Youtube テスト動画（限定公開）「.（くらげ）」 -->
+@[card](https://youtu.be/55LT-oEb9CY?si=nkttVZyOFQ_4fAz6)
 
 ---
 
@@ -185,8 +181,7 @@ loopmidi を**最初に**起動しておこう（バグ防止）。好きな MID
 
 あとは適当なモニター買って繋げるだけ。モニター 1 つの時のテストプログラムはこちらから。
 
-@[card](https://github.com/YOUR_ACCOUNT/Arduino-Serial-Sniffer-by_Raspberry-PI-Pico)
-<!-- ↑ 【URL差し替え】※6 私の GitHub「Arduino-Serial-Sniffer-by_Raspberry-PI-Pico」 -->
+@[card](https://github.com/Tatsubooom/Arduino-Serial-Sniffer-by_Raspberry-PI-Pico-)
 
 ---
 

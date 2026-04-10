@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 dark:bg-slate-800 border-b border-slate-800">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-slate-800 border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold text-white hover:opacity-80 transition-opacity">
           Top.
