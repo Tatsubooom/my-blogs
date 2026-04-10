@@ -40,7 +40,7 @@ ogImage:
 
 ## 実際に作ってみよう
 
-コード全文は GitHub 上に挙げてあります。本記事では要所要所ピックアップして紹介していきます。
+コード全文は [GitHub](https://github.com/Tatsubooom/GPTchan) 上に挙げてあります。本記事では要所要所ピックアップして紹介していきます。
 
 ### Step 1. Discord Bot の骨組み作成
 
