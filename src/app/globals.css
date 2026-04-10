@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 以下の1行を追加 */
+html {
+  scroll-behavior: smooth;
+}

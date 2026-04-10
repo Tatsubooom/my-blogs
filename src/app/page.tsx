@@ -1,29 +1,24 @@
 import Container from "@/app/_components/container";
-import { HeroPost } from "@/app/_components/hero-post";
-import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
+import { Profile } from "@/app/_components/profile";
 import { getAllPosts } from "@/lib/api";
 
 export default function Index() {
   const allPosts = getAllPosts();
 
-  const heroPost = allPosts[0];
-
-  const morePosts = allPosts.slice(1);
-
   return (
-    <main>
+    <main className="pt-24 md:pt-32"> {/* ヘッダー固定分の余白を確保しつつ、記事を上に */}
       <Container>
-        <Intro />
-        <HeroPost
-          title={heroPost.title}
-          coverImage={heroPost.coverImage}
-          date={heroPost.date}
-          author={heroPost.author}
-          slug={heroPost.slug}
-          excerpt={heroPost.excerpt}
-        />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        {/* 以前あった Top. という見出しエリアを完全に削除 */}
+
+        {/* 記事一覧セクション：ここがページ最上部になります */}
+        <div className="mb-24">
+          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+        </div>
+
+        {/* ページ下部のプロフィールセクション */}
+        <Profile />
+        
       </Container>
     </main>
   );

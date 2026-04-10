@@ -1,25 +1,17 @@
 'use client'; // クライアントコンポーネントとしてマーク
 
-import { useEffect } from "react";
 import { PostBody } from "@/app/_components/post-body";
-import initTwitterScriptInner from "zenn-embed-elements/lib/init-twitter-script-inner";
+import Script from "next/script"; // 再びNext.jsのScript機能を呼び出します
 
 type Props = {
   content: string;
 };
 
 export function PostContent({ content }: Props) {
-  useEffect(() => {
-    import('zenn-embed-elements');
-  }, []);
-
   return (
     <>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: initTwitterScriptInner
-        }}
-      />
+      {}
+      <Script src="https://embed.zenn.studio/js/listen-embed-event.js" />
       <PostBody content={content} />
     </>
   );

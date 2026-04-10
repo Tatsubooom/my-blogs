@@ -1,5 +1,6 @@
 import { Post } from "@/interfaces/post";
 import { PostPreview } from "./post-preview";
+import cn from "classnames";
 
 type Props = {
   posts: Post[];
@@ -7,22 +8,28 @@ type Props = {
 
 export function MoreStories({ posts }: Props) {
   return (
-    <section>
-      <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-        More Stories
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-32 mb-32">
-        {posts.map((post) => (
-          <PostPreview
-            key={post.slug}
-            title={post.title}
-            coverImage={post.coverImage}
-            date={post.date}
-            author={post.author}
-            slug={post.slug}
-            excerpt={post.excerpt}
-          />
-        ))}
+    <section className="max-w-3xl mx-auto px-5">
+      <h2 className="mb-8 text-5xl font-bold">Posts</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-12">
+        {posts.map((post, index) => {
+          const isLastRow = index >= posts.length - (posts.length % 2 === 0 ? 2 : 1);
+
+          return (
+            <div 
+              key={post.slug} 
+              className={cn(!isLastRow && "border-b border-slate-800")}
+            >
+              <PostPreview
+                title={post.title}
+                coverImage={post.coverImage}
+                date={post.date}
+                author={post.author}
+                slug={post.slug}
+                excerpt={post.excerpt}
+              />
+            </div>
+          );
+        })}
       </div>
     </section>
   );
