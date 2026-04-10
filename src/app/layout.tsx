@@ -10,11 +10,23 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: `Next.js Blog Example with ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+export const metadata = {
+  title: "tatsubon's blog", // ブラウザのタブやプレビューのタイトル
+  description: "いろんなものつくる", // 説明文
   openGraph: {
-    images: [HOME_OG_IMAGE_URL],
+    title: "tatsubon's blog",
+    description: "いろんなものつくる",
+    url: "https://test-blog-a29a5.web.app/",
+    siteName: "tatsubon's blog",
+    images: [
+      {
+        url: "https://test-blog-a29a5.web.app/public/assets/blog/preview/Gemini_Generated_Image_gpvyihgpvyihgpvy.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
   },
 };
 
