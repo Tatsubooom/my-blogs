@@ -126,7 +126,7 @@ MIDI（音源ファイル）の送受信には、**Domino** と **Hairless-midis
 
 1. **LoopMIDI** を立ち上げ、左下の＋ボタンからポートを一つ作る。
 
-![LoopMIDI設定画面](/assets/blog/stepper_motor/pdf1_p4_sw_loopmidi.jpg)
+![LoopMIDI設定画面](/assets/blog/stepper_motor/pdf1_p4_sw_domino_config.jpg)
 
 2. **Hairless MIDI** の設定：MIDI IN をさっき作成したポートに、Serial Port には Arduino の Serial を Arduino IDE で確認して設定。
 
@@ -138,7 +138,7 @@ MIDI（音源ファイル）の送受信には、**Domino** と **Hairless-midis
 
 3. **Domino** の環境設定から MIDI-OUT を選択。ポート A の MIDIOUT デバイスに LoopMIDI で作成したポートを設定。音源ファイルはお好きにどうぞ。
 
-![Domino環境設定画面](/assets/blog/stepper_motor/pdf1_p4_sw_domino_config.jpg)
+![Domino環境設定画面](/assets/blog/stepper_motor/pdf1_p4_sw_loopmidi.jpg)
 
 #### 接続フロー
 
